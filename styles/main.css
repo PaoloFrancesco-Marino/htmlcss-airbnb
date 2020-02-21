@@ -6,6 +6,14 @@
 
 }
 
+
+/* header */
+#header {
+  width: 100vw;
+  height: 200px;
+  background: #ccc;
+}
+
 /* content-main */
 main {
   font-family: 'Open Sans';
