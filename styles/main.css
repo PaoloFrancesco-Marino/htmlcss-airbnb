@@ -18,11 +18,11 @@
   height: 120px;
   z-index: 1;
   line-height: 50px;
+  text-align: center;
 }
 
 #logo {
   margin-top: 10px;
-  margin-left: 20px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -40,6 +40,7 @@
   margin-left: 20px;
   color: #fff;
 }
+
 #titolo span {
   color: rgb(255, 90, 95);
 }
@@ -72,8 +73,20 @@
   font-weight: 700;
 }
 
+/* input-menu */
+#input-menu {
+  display: inline-block;
+  margin-left: 20px;
+}
 
+input[type="text"] {
+  border-radius: 5px;
+}
 
+input[type="text"]:hover {
+  border-color: rgb(255, 90, 95);
+
+}
 
 /* content-main */
 main {
@@ -139,5 +152,5 @@ main {
 
 }
 .box:hover span {
-  color: #ccc;
+  color: rgb(255, 90, 95);
 }
