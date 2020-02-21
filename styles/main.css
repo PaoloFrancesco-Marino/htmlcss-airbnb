@@ -21,6 +21,7 @@
 
 #logo {
   margin-top: 10px;
+  margin-left: 20px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -35,12 +36,34 @@
   display: inline-block;
 }
 #titolo h1 {
+  margin-left: 20px;
   color: #fff;
 }
 #titolo span {
   color: rgb(255, 90, 95);
 }
 
+/* menu */
+
+#menu {
+  display: inline-block;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  border-bottom: 3px solid transparent;
+}
+
+#menu li a:hover {
+  border-color: rgb(255, 90, 95);
+}
 
 
 
@@ -48,6 +71,7 @@
 /* content-main */
 main {
   font-family: 'Open Sans';
+  padding-top: 120px;
 }
 
 .layover {
