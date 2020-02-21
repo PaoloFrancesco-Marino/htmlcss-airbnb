@@ -17,6 +17,7 @@
   background: #1b3c59;
   height: 120px;
   z-index: 1;
+  line-height: 50px;
 }
 
 #logo {
@@ -55,9 +56,11 @@
 }
 
 #menu li a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: 0 20px;
+  padding: 25px 20px;
+  border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
 
