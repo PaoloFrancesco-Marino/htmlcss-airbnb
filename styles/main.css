@@ -36,6 +36,14 @@ main {
   background-image: url('../img/mosca.jpg');
 }
 
+.box:hover {
+  opacity: .8;
+
+}
+.box:hover span {
+  color: #ccc;
+}
+
 .contenuto {
   position: absolute;
   left: 50%;
