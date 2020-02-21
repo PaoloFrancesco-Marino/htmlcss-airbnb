@@ -68,6 +68,8 @@
 
 #menu li a:hover {
   border-color: rgb(255, 90, 95);
+  color: rgb(255, 90, 95);
+  font-weight: 700;
 }
 
 
