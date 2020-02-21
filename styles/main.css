@@ -11,21 +11,47 @@ main {
   font-family: 'Open Sans';
 }
 
-#londra {
+.box {
   position: relative;
-  background-image: url('../img/londra.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
+  margin: 20px 20px;
+  box-shadow: 3px 3px rgba(0,0,0, .5)
 }
 
-#londra-position {
+.londra {
+  background-image: url('../img/londra.jpg');
+}
+
+.parigi {
+  background-image: url('../img/parigi.jpg');
+}
+
+.vienna {
+  background-image: url('../img/vienna.jpg');
+}
+
+.mosca {
+  background-image: url('../img/mosca.jpg');
+}
+
+.contenuto {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 140px;
   font-weight: 700;
   color: #fff;
-  text-shadow: 3px 3px rgba(0,0,0, .5)
+  text-shadow: 5px 5px rgba(0,0,0, .5)
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.2)
 }
