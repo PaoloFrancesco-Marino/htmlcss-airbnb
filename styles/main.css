@@ -5,7 +5,6 @@
   margin: 0;
 }
 
-
 /* header */
 
 #header {
@@ -207,8 +206,21 @@ main {
 /* footer */
 
 #footer {
+  font-family: 'Rubik';
   width: 100%;
   height: 100px;
   background: #1b3c59;
+  color: #fff;
   text-align: center;
+}
+
+#footer h3 {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+#footer h3 span {
+  display: inline-block;
+  color: rgb(255, 90, 95);
 }
