@@ -76,15 +76,21 @@
 /* input-menu */
 
 #sotto-menu {
-  color: rgb(255, 90, 95);
+  color: #fff;
 }
 #input-menu {
   display: inline-block;
 }
 
 #input-menu label {
-  padding: 0 15px;
+  padding: 0 8px;
   font-weight: 700;
+}
+
+#input-menu label:hover {
+
+  color: rgb(255, 90, 95)
+
 }
 
 input[type="text"] {
